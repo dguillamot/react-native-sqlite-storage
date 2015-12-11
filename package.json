@@ -28,8 +28,5 @@
   "bugs": {
     "url": "https://github.com/andpor/react-native-sqlite-storage/issues"
   },
-  "homepage": "https://github.com/andpor/react-native-sqlite-storage",
-  "peerDependencies": {
-    "react-native": ">=0.14.0"
-  }
+  "homepage": "https://github.com/andpor/react-native-sqlite-storage"
 }
