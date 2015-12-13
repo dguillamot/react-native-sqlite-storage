@@ -20,10 +20,10 @@ public class SQLiteArray extends JSONArray {
         try {
             Field valuesField = JSONArray.class.getDeclaredField("values");
             valuesField.setAccessible(true);
-            // valuesField.set(valuesField, new ArrayList<>(size)); // dguillamot - failing with error 
+            // valuesField.set(valuesField, new ArrayList<>(size)); // dguillamot - failing with error
         } catch (NoSuchFieldException e) {
             e.printStackTrace();
-        } catch (IllegalAccessException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

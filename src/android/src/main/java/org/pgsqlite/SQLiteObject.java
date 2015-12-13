@@ -23,7 +23,7 @@ public class SQLiteObject extends JSONObject {
             // valuesField.set(valuesField, new LinkedHashMap<String, Object>(size)); // dguillamot - failing with error
         } catch (NoSuchFieldException e) {
             e.printStackTrace();
-        } catch (IllegalAccessException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
